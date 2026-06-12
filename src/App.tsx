@@ -2,6 +2,7 @@ import logo from "./assets/logo.png";
 import footerWatermark from "./assets/ad-watermark.png";
 import { SocialLink } from "./components/SocialLink";
 import { Card } from "./components/Card";
+import { Playlists } from "./components/Playlists";
 
 function App() {
 	return (
@@ -26,8 +27,9 @@ function App() {
 						<SocialLink destination="https://discord.gg/UcDTeaRmnQ" iconType="discord" />
 					</div>
 				</header>
-				<main className="mt-10">
-					<div className="flex flex-col items-center gap-3">
+				<main className="mt-10 flex flex-col gap-10">
+					{/* Support Section */}
+					<div className="flex flex-col items-center gap-4">
 						<h3 className="font-semibold text-lg text-white">Support Me 💖</h3>
 						<Card title="Bandcamp" destination="https://alessiodicorato.bandcamp.com/" iconType="bandcamp"></Card>
 						<Card
@@ -43,6 +45,11 @@ function App() {
 							destination="https://www.youtube.com/@AlessioDicorato/join"
 							iconType="youtube"
 						></Card>
+					</div>
+					{/* Playlists Section */}
+					<div className="flex flex-col items-center gap-4">
+						<h3 className="font-semibold text-lg text-white">My Spotify Playlists 🎧</h3>
+						<Playlists />
 					</div>
 				</main>
 				<footer className="mt-10 flex justify-center">

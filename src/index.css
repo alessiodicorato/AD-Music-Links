@@ -2,5 +2,7 @@
 
 @theme {
 	--font-poppins: Poppins, sans-serif;
+	--color-dark-grey: #373e48;
+	--background-color-card: #e9e4e4;
 	--background-image-dark: url("/background-image.jpg");
 }

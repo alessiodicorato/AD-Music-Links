@@ -1,4 +1,5 @@
 import { SiBandcamp, SiDiscord, SiKofi, SiYoutube } from "react-icons/si";
+import latestReleaseImg from "../assets/latest-release.jpg";
 
 type CardProps = {
 	cardType: "default" | "release";
@@ -28,9 +29,7 @@ export function Card({ cardType, title, desc, destination, iconType }: CardProps
 		>
 			<div className={`flex items-center justify-center rounded-s-xl shrink-0 bg-white`} style={{ width: cardSize }}>
 				{cardType === "default" && iconType && iconMap[iconType]}
-				{cardType === "release" && (
-					<img src="/src/assets/latest-release.jpg" alt={`${title} Artwork`} className="rounded-s-xl" />
-				)}
+				{cardType === "release" && <img src={latestReleaseImg} alt={`${title} Artwork`} className="rounded-s-xl" />}
 			</div>
 			<div className="flex flex-col justify-center min-w-0 px-3">
 				<h4 className="font-semibold">{title}</h4>

@@ -28,23 +28,44 @@ function App() {
 					</div>
 				</header>
 				<main className="mt-10 flex flex-col gap-10">
+					{/* Latest Release Section */}
+					<div className="flex flex-col items-center gap-4">
+						<h3 className="font-semibold text-lg text-white">Latest Release 🎹</h3>
+						<Card
+							cardType="release"
+							title="Recollections of Stardew Valley"
+							destination="https://lynkify.in/album/recollections-of-stardew-valley/bbaPZnrI"
+						/>
+					</div>
 					{/* Support Section */}
 					<div className="flex flex-col items-center gap-4">
 						<h3 className="font-semibold text-lg text-white">Support Me 💖</h3>
-						<Card title="Bandcamp" destination="https://alessiodicorato.bandcamp.com/" iconType="bandcamp"></Card>
 						<Card
+							cardType="default"
+							title="Bandcamp"
+							destination="https://alessiodicorato.bandcamp.com/"
+							iconType="bandcamp"
+						/>
+						<Card
+							cardType="default"
 							title="Sheet Music on Discord"
 							desc="For free!"
 							destination="https://discord.gg/UcDTeaRmnQ"
 							iconType="discord"
-						></Card>
-						<Card title="Donate on Ko-fi" destination="https://ko-fi.com/alessiodicorato" iconType="kofi"></Card>
+						/>
 						<Card
+							cardType="default"
+							title="Donate on Ko-fi"
+							destination="https://ko-fi.com/alessiodicorato"
+							iconType="kofi"
+						/>
+						<Card
+							cardType="default"
 							title="Become a YT Supporter"
-							desc="Support my channel with just $0.99!"
+							desc="With just $0.99!"
 							destination="https://www.youtube.com/@AlessioDicorato/join"
 							iconType="youtube"
-						></Card>
+						/>
 					</div>
 					{/* Playlists Section */}
 					<div className="flex flex-col items-center gap-4">

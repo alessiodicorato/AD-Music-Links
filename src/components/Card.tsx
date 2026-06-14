@@ -1,5 +1,5 @@
 import { SiBandcamp, SiDiscord, SiKofi, SiYoutube } from "react-icons/si";
-import latestReleaseImg from "../assets/latest-release.jpg";
+import latestReleaseImg from "../assets/latest-release.webp";
 
 type CardProps = {
 	cardType: "default" | "release";

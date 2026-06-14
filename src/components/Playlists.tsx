@@ -1,7 +1,7 @@
-import nintendoImg from "../assets/playlists/nintendo.png";
-import videogameImg from "../assets/playlists/videogame.png";
-import pmdImg from "../assets/playlists/pmd.png";
-import lullabiesImg from "../assets/playlists/lullabies.png";
+import nintendoImg from "../assets/playlists/nintendo.webp";
+import videogameImg from "../assets/playlists/videogame.webp";
+import pmdImg from "../assets/playlists/pmd.webp";
+import lullabiesImg from "../assets/playlists/lullabies.webp";
 
 type Playlist = {
 	value: string;

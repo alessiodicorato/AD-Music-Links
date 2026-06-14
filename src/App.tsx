@@ -1,5 +1,5 @@
-import logo from "./assets/logo.png";
-import footerWatermark from "./assets/ad-watermark.png";
+import logo from "./assets/logo.webp";
+import footerWatermark from "./assets/ad-watermark.webp";
 import { SocialLink } from "./components/SocialLink";
 import { Card } from "./components/Card";
 import { Playlists } from "./components/Playlists";

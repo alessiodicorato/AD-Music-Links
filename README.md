@@ -1,6 +1,6 @@
 # My Personal Link-in-Bio
 
-This my custom link-in-bio page. Here you can find all my social links, latest releases, Spotify playlists and all ways to support my music.
+This is my custom link-in-bio page. Here you can find all my social links, latest releases, Spotify playlists and all ways to support my music.
 
 ## Tech Stack
 

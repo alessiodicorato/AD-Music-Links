@@ -9,7 +9,7 @@ function App() {
 		<div className="bg-black/75 w-full">
 			<div className="bg-dark bg-cover max-w-125 min-h-screen m-auto font-poppins px-5">
 				<header className="flex flex-col items-center gap-6">
-					<img src={logo} alt="Alessio Dicorato Logo" className="w-35 border-5 border-white rounded-full mt-5" />
+					<img src={logo} alt="Alessio Dicorato Logo" className="w-35 p-4 border-5 border-white rounded-full mt-5" />
 					<h1 className="font-semibold text-white">Alessio Dicorato</h1>
 					<h2 className="font-normal text-sm text-white text-center max-w-80">
 						Hello! I'm an Italian pianist creating cozy piano renditions of your favourite Video game, Anime and Movie

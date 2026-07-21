@@ -1,7 +1,7 @@
 import nintendoImg from "../assets/playlists/nintendo.webp";
 import videogameImg from "../assets/playlists/videogame.webp";
 import pmdImg from "../assets/playlists/pmd.webp";
-import lullabiesImg from "../assets/playlists/lullabies.webp";
+import thisIsImg from "../assets/playlists/thisis.webp";
 
 type Playlist = {
 	value: string;
@@ -31,10 +31,10 @@ export function Playlists() {
 			destination: "https://open.spotify.com/playlist/2xjOit0iD2sAObgQ8MHAEG?si=f72ed68dfd70474d",
 		},
 		{
-			value: "lullabies",
-			imageUrl: lullabiesImg,
-			alt: "video game lullabies to fall asleep to 💤",
-			destination: "https://open.spotify.com/playlist/2lvGK7f9ltIVIWGWgrv4qu?si=3a52a986bd9b4c4c",
+			value: "thisIs",
+			imageUrl: thisIsImg,
+			alt: "This is Alessio Dicorato",
+			destination: "https://open.spotify.com/playlist/37i9dQZF1DZ06evO28TCbV?si=e08fc6e0b6c64faf",
 		},
 	];
 

@@ -1,8 +1,8 @@
-import { SiSpotify, SiApplemusic, SiYoutube, SiInstagram, SiTwitch, SiDiscord } from "react-icons/si";
+import { SiSpotify, SiApplemusic, SiBandcamp, SiYoutube, SiInstagram, SiTwitch, SiDiscord } from "react-icons/si";
 
 type SocialLinkProps = {
 	destination: string;
-	iconType: "spotify" | "appleMusic" | "youtube" | "instagram" | "twitch" | "discord";
+	iconType: "spotify" | "appleMusic" | "bandcamp" | "youtube" | "instagram" | "twitch" | "discord";
 };
 
 export function SocialLink({ destination, iconType }: SocialLinkProps) {
@@ -11,6 +11,7 @@ export function SocialLink({ destination, iconType }: SocialLinkProps) {
 	const iconMap = {
 		spotify: <SiSpotify color={iconColor} size={iconSize} />,
 		appleMusic: <SiApplemusic color={iconColor} size={iconSize} />,
+		bandcamp: <SiBandcamp color={iconColor} size={iconSize} />,
 		youtube: <SiYoutube color={iconColor} size={iconSize} />,
 		instagram: <SiInstagram color={iconColor} size={iconSize} />,
 		twitch: <SiTwitch color={iconColor} size={iconSize} />,
